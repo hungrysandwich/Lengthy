@@ -1,6 +1,6 @@
 # lengthy-vue
 
-> A Vue.js project
+> Check the lengths of scripts, documents and voiceovers.
 
 ## Build Setup
 
