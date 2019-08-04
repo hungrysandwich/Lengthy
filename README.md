@@ -5,7 +5,7 @@
 
 > Check the read lengths of scripts, documents and voiceovers.
 
-A Vue app for estimating the 'time to read' from a text. Useful for planning voiceovers for animation and film.
+A Vue app for estimating the 'time to read' from any text. Useful for finding the length of a voiceover based on its script.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ac8159a7-e7fc-47d3-8f56-dd300c767cbc/deploy-status)](https://app.netlify.com/sites/lengthy/deploys)
 
@@ -32,12 +32,12 @@ npm run build
 
 ## Features
 
-Get estimated read time for text based on word count.
-Set a time target to reach.
-Fully featured editor for live editing scripts.
-Set custom read speed for better accuracy.
-Generate a share link for clients/collaborators.
-Generate a PDF of results.
+- Get estimated read time for text based on word count.
+- Set a time target to reach.
+- Fully featured editor for live editing scripts.
+- Set custom read speed for better accuracy.
+- Generate a share link for clients/collaborators.
+- Generate a PDF of results.
 
 ## Built With
 
