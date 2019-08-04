@@ -2,7 +2,7 @@
 
   <router-view>
   </router-view>
-  
+
 </template>
 
 
@@ -10,7 +10,7 @@
 <style lang="scss">
 
 .sidebar {
-  background:#F7F9FA;
+  background:#FFCC00;
   width:300px;
   height:100%;
   min-height:100vh;
@@ -294,13 +294,13 @@ a {
   a {
     color:inherit;
     text-decoration:none;
-    
+
     &:hover {
       opacity:0.6;
     }
   }
 }
- 
+
  .target-mins, .target-secs, .read-speed {
    font-size:22px;
    font-weight:bold;

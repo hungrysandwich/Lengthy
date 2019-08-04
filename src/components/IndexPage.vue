@@ -13,16 +13,16 @@
     <span class="bold">{{$parent.$parent.stats.splitMins}}</span> mins <span class="bold">{{$parent.$parent.stats.splitSecs}}</span> secs
     </p>
 
-    
+
 
     <div class="actions">
 
             <p @click="$parent.$parent.target.set = !$parent.$parent.target.set">
-            <i class="fas fa-bullseye" style="color:#676767; transform:scale(0.9);"></i> 
+            <i class="fas fa-bullseye" style="color:#676767; transform:scale(0.9);"></i>
                <span v-html="$parent.$parent.target.set ? 'Remove Target' : 'Add Target'"></span>
             </p>
 
-            
+
 
             <p v-if="$parent.$parent.target.set" class="set-target">
             <input v-model="$parent.$parent.target.targetMins" @input="$parent.$parent.handleInput()" class="target-mins" value="00"> mins
@@ -45,21 +45,21 @@
             <i class="fas fa-arrow-down" style="color:#676767; transform:scale(0.9);"></i> Download PDF
             </p>
 
-           
 
-    </div>    
+
+    </div>
 
     <div class="credits">
         <a href="http://hungrysandwich.club"><i class="fa fa-heart" style="color:#676767; transform:scale(0.9);"></i> Hungry Sandwich Club</a>
     </div>
-    
-    
+
+
     </div>
 
     <div class="main-content" :class="$parent.$parent.pageReady == true ? 'reveal' : ''">
 
         <div class="inner">
-        
+
         <input class="title" v-model="$parent.$parent.scriptContent.title">
         <span @click="$parent.$parent.saveScript()" class="save-btn" v-if="$parent.$parent.shareLink == ''">Share <i class="fa fa-link" style="color:#7d7c7c; transform:scale(0.8);"></i></span>
         <span v-if="$parent.$parent.shareLink" class="save-btn">Link: <a :href="$parent.$parent.shareLink" target="_blank">{{$parent.$parent.shareLink}}</a> <i class="fa fa-check" style="color: #42b983;; transform:scale(0.8);"></i></span>
@@ -80,7 +80,7 @@
             Report:</p>
             <p>
             Word Count: <span class="bold">{{$parent.$parent.stats.textWords}}</span><br>
-            
+
             <span v-if="$parent.$parent.stats.splitSecs">
             Approx Time to Say: <br>
             <span class="bold">{{$parent.$parent.stats.splitMins}}</span> mins <span class="bold">{{$parent.$parent.stats.splitSecs}}</span> secs
@@ -89,7 +89,7 @@
         </div>
 
         <div class="pdf__text" v-html="$parent.$parent.scriptContent.text">
-           
+
         </div>
 
 
@@ -124,7 +124,7 @@ export default {
    methods: {
 
 
-  }, 
+  },
   created: function () {
 
     // this.makeDoc();
