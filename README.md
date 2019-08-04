@@ -1,11 +1,13 @@
 
-# lengthy-vue
+# Lengthy
 
 
 
 > Check the read lengths of scripts, documents and voiceovers.
 
 A Vue app for estimating the 'time to read' from a text. Useful for planning voiceovers for animation and film.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ac8159a7-e7fc-47d3-8f56-dd300c767cbc/deploy-status)](https://app.netlify.com/sites/lengthy/deploys)
 
 
 ## Build Setup
