@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import editor from 'vue2-medium-editor'
-import firebase from 'firebase'
+import * as firebase from 'firebase';
 import router from './router'
 Vue.component('medium-editor', editor);
 
@@ -73,7 +73,7 @@ new Vue({
             var wordCount = this.innerText.split(" ").length;
             console.log(wordCount)
 
-            // Add stats to state 
+            // Add stats to state
             this.stats.textChars = charCount;
             this.stats.textWords = wordCount;
 
