@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "vue": "^2.5.16",
-    "vue2-medium-editor": "^1.1.4"
+    "vue2-medium-editor": "^1.1.6"
   },
   "browserslist": [
     "> 1%",
